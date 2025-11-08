@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&family=Montserrat:wght@300;400;600;700;900&display=swap');
+
+/*-- scss:defaults --*/
+
+// Colores NIS
+$violeta: #9d0fc8;
+$turquesa: #14c0cc;
+$verde: #8dc63f;
+$gris-claro: #f8f8f8;
+$gris-oscuro: #333333;
+
+// Fondo general de las slides
+$backgroundColor: $gris-claro;
+
+// Tipografías
+$mainFont: 'Nunito', sans-serif;
+$headingFont: 'Montserrat', sans-serif;
+$mainFontSize: 32px;
+
+// Espaciado entre bloques
+$blockMargin: 0.4em;
+
+// Encabezados
+$headingColor: $violeta;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: 1px;
+$headingTextTransform: none;
+$headingFontWeight: 700;
+
+$heading1Size: 2.2em;
+$heading2Size: 1.8em;
+$heading3Size: 1.4em;
+$heading4Size: 1.1em;
+
+// Código
+$codeFont: 'Fira Mono', monospace;
+$code-block-font-size: 0.8em;
+
+// Links
+$linkColor: $turquesa;
+$linkColorHover: darken($turquesa, 15%);
+
+section.has-dark-background a, section.has-dark-background a:hover {
+    color: $verde !important;
+}
+
+// Selección de texto
+$selectionBackgroundColor: $violeta;
+$selectionColor: #fff;
+
+// Contraste
+$min-contrast-ratio: 7;
+
+// ---------- Estilos específicos ----------
+
+// Títulos en slides
+.reveal .slide h1,
+.reveal .slide h2 {
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+}
+
+// Subtítulos
+.subtitle {
+  font-size: $heading3Size;
+  font-weight: 600;
+  color: $turquesa;
+  margin-top: 0.5em;
+}
+
+// Footer
+.reveal .footer {
+  font-size: 0.8em;
+  color: $violeta;
+}
+
+// Links subrayados
+.reveal a:not([role="tab"]) {
+  text-decoration: underline !important;
+}
+
+// Centrados
+.center {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Contenedores centrados verticalmente
+.reveal .slide .v-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  flex-direction: column;
+}
+
+// Fondos diferenciados para secciones
+.section {
+  &:is(.slide-background) {
+    background: $violeta;
+    color: white;
+  }
+}
+
+.demo {
+  &:is(.slide-background) {
+    background: $turquesa;
+    color: white;
+  }
+}
+
+.exercise {
+  &:is(.slide-background) {
+    background: $verde;
+    color: white;
+  }
+}
+
+// Código
+.reveal div.sourceCode {
+  margin-bottom: 15px !important;
+  border-radius: 8px;
+  background: #2e2e2e;
+  padding: 10px;
+}
+
+// Tablas
+.reveal table {
+  margin-left: 0 !important;
+  font-size: 0.9em;
+}
+
+// Slides con texto grande
+.large-font-slide {
+  p {
+    font-size: 1.4em;
+    line-height: 1.7;
+  }
+}
+
+// Botones para slides
+.button-link {
+  display: inline-block;
+  background-color: $violeta;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: darken($violeta, 10%);
+}
+
+// Compact titles
+.reveal h1.compact-title,
+.reveal h2.compact-title {
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}

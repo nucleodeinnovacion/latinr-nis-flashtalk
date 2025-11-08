@@ -1,0 +1,98 @@
+---
+title: "Uso de R en procesos colaborativos de producción estadística y formación: la experiencia del NIS"
+author: "Betsy Cohen & Ariana Bardauil – NIS"
+format: 
+  revealjs:
+    slide-number: true
+    transition: fade
+    logo: "imagenes/logoNIS.png"
+editor: visual
+---
+
+## ¿Quiénes somos?
+
+-   Equipo **interdisciplinario** en la intersección entre **ciencias sociales**, datos y **software libre**.
+
+-   Buscamos aplicar herramientas de código abierto (R, Python) a problemas reales, desde una lógica cooperativa y situada.
+
+-   **Empoderar** organizaciones para tomar decisiones informadas y **transformar** su realidad.
+
+    ![](imagenes/equipo-nis-2.jpg)
+
+## ¿Por qué el NIS?
+
+-   Falta de espacios donde las ciencias sociales discutan y produzcan datos desde una perspectiva crítica y de acción.
+
+-   Combinar saberes sociales con herramientas técnicas y fortalecer sectores culturales y comunitarios.
+
+## R en acción: el sector editorial
+
+**Caso: Cámara Argentina del Libro (CAL)**\
+
+-   Pipeline de limpieza, transformación y análisis (≈300.000 registros de ISBN).
+
+-   Indicadores históricos y usados por la CAL, INDEC y SiNCA.
+
+-   Shiny app "Monitor editorial SEC" -\> https://monitoreditorialcal.shinyapps.io/monitor_editorial/
+
+-   Proceso colaborativo y reproducible en R.
+
+![](imagenes/Esquema%20informes%20CAL%20ISBN%20NIS.png)
+
+## Encuestas al sector
+
+::: columns
+::: {.column width="50%"}
+-   Relevamientos online a editoriales y librerías.
+-   Única fuente sistemática de información sobre ventas del sector en Argentina.
+-   Automatización en R: recolección, limpieza y visualización.
+-   Desafío: baja tasa de respuesta → migración a metodología de panel con reportes personalizados (R + Quarto).
+:::
+
+::: {.column width="50%"}
+![](imagenes/informes-cal-impacto.png)
+:::
+:::
+
+## Formación y comunidad
+
+::: columns
+::: {.column width="50%"}
+-   Cursos y talleres de R para ciencias sociales (60+ participantes en AR, UY y CL).
+-   Materiales reproducibles en Quarto y sitio web colaborativo.
+-   Construcción de comunidad: colegas que aprenden de colegas.
+:::
+
+::: {.column width="50%"}
+![](imagenes/curso-intror.png){width="378"}
+:::
+:::
+
+## Lo que aprendimos
+
+::: columns
+::: {.column width="50%"}
+R es más que código:\
+- una práctica cooperativa,\
+- una forma de construir conocimiento abierto,\
+- y una herramienta para transformar la producción estadística en los espacios sociales.
+:::
+
+::: {.column width="50%"}
+![](imagenes/equipo-docente.png)
+:::
+:::
+
+## Muchas gracias LatinR
+
+::: columns
+::: {.column width="50%"}
+![](imagenes/hexs-latinr-nis.png){fig-align="left" width="286"}
+:::
+
+::: {.column width="50%"}
+Los invitamos a sumarse / conocer más sobre nosotros en
+
+https://nucleodeinnovacionsocial.com.ar/
+:::
+:::
