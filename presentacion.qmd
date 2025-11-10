@@ -6,18 +6,25 @@ format:
     slide-number: true
     transition: fade
     logo: "imagenes/logoNIS.png"
+    theme: slides.scss
 editor: visual
 ---
 
 ## ¿Quiénes somos?
 
+::: columns
+::: {.column width="50%"}
 -   Equipo **interdisciplinario** en la intersección entre **ciencias sociales**, datos y **software libre**.
 
 -   Buscamos aplicar herramientas de código abierto (R, Python) a problemas reales, desde una lógica cooperativa y situada.
 
 -   **Empoderar** organizaciones para tomar decisiones informadas y **transformar** su realidad.
+:::
 
-    ![](imagenes/equipo-nis-2.jpg)
+::: {.column width="50%"}
+![](imagenes/equipo-nis-2.jpg){width="454"}
+:::
+:::
 
 ## ¿Por qué el NIS?
 
@@ -27,30 +34,33 @@ editor: visual
 
 ## R en acción: el sector editorial
 
-**Caso: Cámara Argentina del Libro (CAL)**\
-
+::: notes
 -   Pipeline de limpieza, transformación y análisis (≈300.000 registros de ISBN).
 
+```{=html}
+<!-- -->
+```
 -   Indicadores históricos y usados por la CAL, INDEC y SiNCA.
 
 -   Shiny app "Monitor editorial SEC" -\> https://monitoreditorialcal.shinyapps.io/monitor_editorial/
 
 -   Proceso colaborativo y reproducible en R.
+:::
 
-![](imagenes/Esquema%20informes%20CAL%20ISBN%20NIS.png)
+![](imagenes/Esquema informes CAL ISBN NIS.png)
 
 ## Encuestas al sector
 
 ::: columns
-::: {.column width="50%"}
--   Relevamientos online a editoriales y librerías.
--   Única fuente sistemática de información sobre ventas del sector en Argentina.
--   Automatización en R: recolección, limpieza y visualización.
--   Desafío: baja tasa de respuesta → migración a metodología de panel con reportes personalizados (R + Quarto).
+::: {.column width="50%" .v-center}
+- Relevamientos online a editoriales y librerías.  
+- Única fuente sistemática de información sobre ventas del sector en Argentina.  
+- Automatización en R: recolección, limpieza y visualización.  
+- Desafío: baja tasa de respuesta → migración a panel + reportes personalizados (Quarto).
 :::
 
 ::: {.column width="50%"}
-![](imagenes/informes-cal-impacto.png)
+![](imagenes/informes-cal-impacto.png){width="80%" fig-align="center"}
 :::
 :::
 
@@ -91,8 +101,13 @@ R es más que código:\
 :::
 
 ::: {.column width="50%"}
-Los invitamos a sumarse / conocer más sobre nosotros en
+**Los invitamos a sumarse y conocer más sobre nosotros en:**  
+[**nucleodeinnovacionsocial.com.ar**](https://nucleodeinnovacionsocial.com.ar/)
 
-https://nucleodeinnovacionsocial.com.ar/
+<br>
+
+{{< fa brands instagram >}} **@nucleodeinnovacion**  
+{{< fa brands linkedin >}} [Núcleo de Innovación Social](https://www.linkedin.com/company/nucleois)
+
 :::
 :::

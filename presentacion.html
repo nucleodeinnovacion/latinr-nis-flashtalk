@@ -6,7 +6,9 @@
 <script src="presentacion_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="presentacion_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="presentacion_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="presentacion_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="presentacion_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="presentacion_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="presentacion_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.32">
 
   <meta name="author" content="Betsy Cohen &amp; Ariana Bardauil – NIS">
@@ -29,7 +31,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="presentacion_files/libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="presentacion_files/libs/revealjs/dist/theme/quarto-c1a6fc3048015762477f4e5d9c6bcf00.css">
   <link href="presentacion_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="presentacion_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="presentacion_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -140,12 +142,16 @@ Betsy Cohen &amp; Ariana Bardauil – NIS
 </section>
 <section id="quiénes-somos" class="slide level2">
 <h2>¿Quiénes somos?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li><p>Equipo <strong>interdisciplinario</strong> en la intersección entre <strong>ciencias sociales</strong>, datos y <strong>software libre</strong>.</p></li>
 <li><p>Buscamos aplicar herramientas de código abierto (R, Python) a problemas reales, desde una lógica cooperativa y situada.</p></li>
-<li><p><strong>Empoderar</strong> organizaciones para tomar decisiones informadas y <strong>transformar</strong> su realidad.</p>
-<p><img data-src="imagenes/equipo-nis-2.jpg"></p></li>
+<li><p><strong>Empoderar</strong> organizaciones para tomar decisiones informadas y <strong>transformar</strong> su realidad.</p></li>
 </ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="imagenes/equipo-nis-2.jpg" width="454"></p>
+</div></div>
 </section>
 <section id="por-qué-el-nis" class="slide level2">
 <h2>¿Por qué el NIS?</h2>
@@ -156,28 +162,48 @@ Betsy Cohen &amp; Ariana Bardauil – NIS
 </section>
 <section id="r-en-acción-el-sector-editorial" class="slide level2">
 <h2>R en acción: el sector editorial</h2>
-<p><strong>Caso: Cámara Argentina del Libro (CAL)</strong><br>
-</p>
+<aside class="notes">
 <ul>
-<li><p>Pipeline de limpieza, transformación y análisis (≈300.000 registros de ISBN).</p></li>
+<li>Pipeline de limpieza, transformación y análisis (≈300.000 registros de ISBN).</li>
+</ul>
+<!-- -->
+<ul>
 <li><p>Indicadores históricos y usados por la CAL, INDEC y SiNCA.</p></li>
 <li><p>Shiny app “Monitor editorial SEC” -&gt; https://monitoreditorialcal.shinyapps.io/monitor_editorial/</p></li>
 <li><p>Proceso colaborativo y reproducible en R.</p></li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 <img data-src="imagenes/Esquema%20informes%20CAL%20ISBN%20NIS.png" class="r-stretch"></section>
 <section id="encuestas-al-sector" class="slide level2">
 <h2>Encuestas al sector</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column v-center" style="width:50%;">
 <ul>
-<li>Relevamientos online a editoriales y librerías.</li>
-<li>Única fuente sistemática de información sobre ventas del sector en Argentina.</li>
-<li>Automatización en R: recolección, limpieza y visualización.</li>
-<li>Desafío: baja tasa de respuesta → migración a metodología de panel con reportes personalizados (R + Quarto).</li>
+<li>Relevamientos online a editoriales y librerías.<br>
+</li>
+<li>Única fuente sistemática de información sobre ventas del sector en Argentina.<br>
+</li>
+<li>Automatización en R: recolección, limpieza y visualización.<br>
+</li>
+<li>Desafío: baja tasa de respuesta → migración a panel + reportes personalizados (Quarto).</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><img data-src="imagenes/informes-cal-impacto.png"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="imagenes/informes-cal-impacto.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
 </div></div>
 </section>
 <section id="formación-y-comunidad" class="slide level2">
@@ -215,8 +241,11 @@ Betsy Cohen &amp; Ariana Bardauil – NIS
 </figure>
 </div>
 </div><div class="column" style="width:50%;">
-<p>Los invitamos a sumarse / conocer más sobre nosotros en</p>
-<p>https://nucleodeinnovacionsocial.com.ar/</p>
+<p><strong>Los invitamos a sumarse y conocer más sobre nosotros en:</strong><br>
+<a href="https://nucleodeinnovacionsocial.com.ar/"><strong>nucleodeinnovacionsocial.com.ar</strong></a></p>
+<p><br></p>
+<p><i class="fa-brands fa-instagram" aria-label="instagram"></i> <strong><span class="citation" data-cites="nucleodeinnovacion">@nucleodeinnovacion</span></strong><br>
+<i class="fa-brands fa-linkedin" aria-label="linkedin"></i> <a href="https://www.linkedin.com/company/nucleois">Núcleo de Innovación Social</a></p>
 </div></div>
 
 </section>
