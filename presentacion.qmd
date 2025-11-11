@@ -1,6 +1,12 @@
 ---
 title: "Uso de R en procesos colaborativos de producción estadística y formación: la experiencia del NIS"
-author: "Betsy Cohen & Ariana Bardauil – NIS"
+author:
+  - name: "Betsy Cohen"
+    affiliation: "Núcleo de Innovación Social (NIS)"
+    role: "Coordinadora"
+  - name: "Ariana Bardauil"
+    affiliation: "Núcleo de Innovación Social (NIS)"
+    role: "Coordinadora"
 format: 
   revealjs:
     slide-number: true
@@ -37,9 +43,8 @@ editor: visual
 ::: notes
 -   Pipeline de limpieza, transformación y análisis (≈300.000 registros de ISBN).
 
-```{=html}
 <!-- -->
-```
+
 -   Indicadores históricos y usados por la CAL, INDEC y SiNCA.
 
 -   Shiny app "Monitor editorial SEC" -\> https://monitoreditorialcal.shinyapps.io/monitor_editorial/
@@ -47,16 +52,16 @@ editor: visual
 -   Proceso colaborativo y reproducible en R.
 :::
 
-![](imagenes/Esquema informes CAL ISBN NIS.png)
+![](imagenes/Esquema%20informes%20CAL%20ISBN%20NIS.png)
 
 ## Encuestas al sector
 
 ::: columns
-::: {.column width="50%" .v-center}
-- Relevamientos online a editoriales y librerías.  
-- Única fuente sistemática de información sobre ventas del sector en Argentina.  
-- Automatización en R: recolección, limpieza y visualización.  
-- Desafío: baja tasa de respuesta → migración a panel + reportes personalizados (Quarto).
+::: {.column .v-center width="50%"}
+-   Relevamientos online a editoriales y librerías.\
+-   Única fuente sistemática de información sobre ventas del sector en Argentina.\
+-   Automatización en R: recolección, limpieza y visualización.\
+-   Desafío: baja tasa de respuesta → migración a panel + reportes personalizados (Quarto).
 :::
 
 ::: {.column width="50%"}
@@ -77,6 +82,18 @@ editor: visual
 ![](imagenes/curso-intror.png){width="378"}
 :::
 :::
+
+## Comunidad y colaboración
+
+
+🪴 **Becas y participación**  
+- Acompañamos a integrantes del NIS y de otras organizaciones en su participación en conferencias de R.  
+- Promovemos la participación de mujeres y disidencias en espacios técnicos, fomentando la formación en herramientas abiertas.
+
+💡 **Talleres y co-organización**  
+- Co-organizamos talleres junto a **RLadies Buenos Aires** y **Ren Buenos Aires** sobre reproducibilidad, visualización de datos y Quarto.  
+- Participamos en actividades formativas y eventos de difusión sobre el uso de R en investigación social y cultural.
+
 
 ## Lo que aprendimos
 
@@ -101,13 +118,12 @@ R es más que código:\
 :::
 
 ::: {.column width="50%"}
-**Los invitamos a sumarse y conocer más sobre nosotros en:**  
+**Los invitamos a sumarse y conocer más sobre nosotros en:**\
 [**nucleodeinnovacionsocial.com.ar**](https://nucleodeinnovacionsocial.com.ar/)
 
 <br>
 
-{{< fa brands instagram >}} **@nucleodeinnovacion**  
+{{< fa brands instagram >}} @nucleodeinnovacion\
 {{< fa brands linkedin >}} [Núcleo de Innovación Social](https://www.linkedin.com/company/nucleois)
-
 :::
 :::
