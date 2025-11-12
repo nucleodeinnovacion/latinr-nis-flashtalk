@@ -28,7 +28,7 @@ editor: visual
 :::
 
 ::: {.column width="50%"}
-![](imagenes/equipo-nis-2.jpg){width="454"}
+![Reunión de equipo NIS 2025](imagenes/equipo-nis-2.jpg){width="454"}
 :::
 :::
 
@@ -52,7 +52,7 @@ editor: visual
 -   Proceso colaborativo y reproducible en R.
 :::
 
-![](imagenes/Esquema%20informes%20CAL%20ISBN%20NIS.png)
+![Esquema de circuito para la elaboración del tablero Monitor Editorial del Sector Editorial Comercial (SEC). https://monitoreditorialcal.shinyapps.io/monitor_editorial/ Nota: El logo del NIS en el diagrama identifica el equipo responsable del procesamiento, no un paquete de R.](imagenes/Esquema%20informes%20CAL%20ISBN%20NIS.png)
 
 ## Encuestas al sector
 
@@ -65,7 +65,7 @@ editor: visual
 :::
 
 ::: {.column width="50%"}
-![](imagenes/informes-cal-impacto.png){width="80%" fig-align="center"}
+![Portadas de los informes CAL y capturas de su impacto en el matutino Perfil 21-12-2024 https://www.perfil.com/noticias/cultura/crisis-en-el-mercado-editorial-argentino-estadisticas-y-encuesta.phtml](imagenes/informes-cal-impacto.png){fig-align="center" width="80%"}
 :::
 :::
 
@@ -79,21 +79,19 @@ editor: visual
 :::
 
 ::: {.column width="50%"}
-![](imagenes/curso-intror.png){width="378"}
+![Portada para Instagram del curso Introducción al análisis de datos con R realizado en Agosto de 2025](imagenes/curso-intror.png){width="378"}
 :::
 :::
 
 ## Comunidad y colaboración
 
-
-🪴 **Becas y participación**  
-- Acompañamos a integrantes del NIS y de otras organizaciones en su participación en conferencias de R.  
+🪴 **Becas y participación**\
+- Acompañamos a integrantes del NIS y de otras organizaciones en su participación en conferencias de R.\
 - Promovemos la participación de mujeres y disidencias en espacios técnicos, fomentando la formación en herramientas abiertas.
 
-💡 **Talleres y co-organización**  
-- Co-organizamos talleres junto a **RLadies Buenos Aires** y **Ren Buenos Aires** sobre reproducibilidad, visualización de datos y Quarto.  
+💡 **Talleres y co-organización**\
+- Co-organizamos talleres junto a **RLadies Buenos Aires** y **Ren Buenos Aires** sobre reproducibilidad, visualización de datos y Quarto.\
 - Participamos en actividades formativas y eventos de difusión sobre el uso de R en investigación social y cultural.
-
 
 ## Lo que aprendimos
 
@@ -106,7 +104,7 @@ R es más que código:\
 :::
 
 ::: {.column width="50%"}
-![](imagenes/equipo-docente.png)
+![Reunión de equipo de docentes del taller Introducción al análisis de datos con R](imagenes/equipo-docente.png)
 :::
 :::
 
